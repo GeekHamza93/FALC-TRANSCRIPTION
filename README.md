@@ -3,7 +3,6 @@
 This project is an application designed to transcribe text into the Facile à Lire et à Comprendre (FALC) language. The backend is implemented with Spring Boot, while the frontend is built with Angular. The application is containerized using Docker and deployed using Kubernetes.
 
 ## Table of Contents
-
 - [Features](#features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
@@ -14,7 +13,6 @@ This project is an application designed to transcribe text into the Facile à Li
 - [License](#license)
 
 ## Features
-
 - Transcription of text to FALC language.
 - User-friendly interface for text input and transcribed output.
 - REST API for transcription services.
@@ -22,9 +20,8 @@ This project is an application designed to transcribe text into the Facile à Li
 - Kubernetes configuration for scalable deployment.
 
 ## Prerequisites
-
 - Java 22
-- Sprion Boot 3.3.1
+- Spring Boot 3.3.1
 - Node.js 14+ and npm
 - Angular CLI
 - Docker
@@ -34,8 +31,7 @@ This project is an application designed to transcribe text into the Facile à Li
 ## Installation
 
 ### Backend (Spring Boot)
-
 1. Clone the repository:
-   ```sh
+   ```bash
    git clone https://github.com/yourusername/falc-transcription.git
    cd falc-transcription/backend
