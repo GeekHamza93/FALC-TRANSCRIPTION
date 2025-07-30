@@ -1,0 +1,13 @@
+<!-- transcription.component.html -->
+<div class="transcription-container">
+  <h2>Transcription FALC</h2>
+
+  <textarea [(ngModel)]="inputText" rows="6" placeholder="Saisissez votre texte ici..."></textarea>
+
+  <button (click)="transcribe()">Transcrire</button>
+
+  <div *ngIf="outputText" class="output-box">
+    <h3>Résultat :</h3>
+    <p>{{ outputText }}</p>
+  </div>
+</div>
