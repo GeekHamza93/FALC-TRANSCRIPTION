@@ -30,8 +30,18 @@ This project is an application designed to transcribe text into the Facile à Li
 
 ## Installation
 
-### Backend (Spring Boot)
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/falc-transcription.git
-   cd falc-transcription/backend
+# 📦 Installation du projet FALC-TRANSCRIPTION
+
+# 1. Cloner le repository
+git clone https://github.com/GeekHamza93/FALC-TRANSCRIPTION
+cd FALC-TRANSCRIPTION
+
+# 2. Lancer le back-end (Spring Boot)
+cd backend
+./mvnw clean install
+./mvnw spring-boot:run
+
+# 3. Lancer le front-end (Angular 20)
+cd ../frontend
+npm install
+ng serve
