@@ -23,7 +23,7 @@ This project is an application designed to transcribe text into the Facile à Li
 - Java 22
 - Spring Boot 3.3.1
 - Node.js 14+ and npm
-- Angular CLI
+- Angular CLI 20
 - Docker
 - Kubernetes CLI (kubectl)
 - Git
